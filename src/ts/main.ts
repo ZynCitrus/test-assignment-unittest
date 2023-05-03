@@ -82,3 +82,5 @@ function clearTodos(todos: Todo[]) {
 }
 
 createHtml(todos);
+
+export { createNewTodo, createHtml, toggleTodo, displayError, clearTodos };
